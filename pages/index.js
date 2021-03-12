@@ -30,7 +30,6 @@ function HomePage() {
     })
       .then(res => res.json())
       .then(res => {
-        debugger;
         setFeedbacks(res.data);
       });
   };
